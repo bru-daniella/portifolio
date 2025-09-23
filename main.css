@@ -5,6 +5,29 @@ body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    margin: 0;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.navigator{
+    background-color: #FFED66;
+    color: black;
+}
+.icone{
+    background-image: url(assets/img/icone.png);
+    width: 20px;
+    height: 20px;
+}
+.nav-items{
+
+}
+.nav-item{
+    text-decoration: none;
+    color: black!important;
+    padding: 10px;
 }
 
 .hero-banner{
