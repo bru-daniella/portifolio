@@ -91,3 +91,37 @@ body{
 .foto{
     margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .icone{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .nav-items{
+    padding: 10px;
+  }
+  .d-flex{
+    display: block;
+  }
+    .grid-container {
+        grid-template-columns: auto;
+  }
+
+  .grid-container-reverse {
+        grid-template-columns: auto;
+  }
+
+  .foto {
+        margin: 30px auto;
+    }
+
+    .item-1-texto{
+        grid-area: 1/2;
+    }
+
+    .item-2-foto{
+        grid-area: 2/2;
+    }
+  
+}
