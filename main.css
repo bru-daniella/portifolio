@@ -3,13 +3,16 @@
 body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: normal;
     font-style: normal;
-    margin: 0;
 }
 
 .d-inline{
     display: inline;
+}
+
+.d-flex{
+    display: flex;
 }
 
 .navigator{
@@ -17,9 +20,13 @@ body{
     color: black;
 }
 .icone{
-    background-image: url(assets/img/icone.png);
-    width: 20px;
-    height: 20px;
+    background-image: url('assets/img/icone.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    margin: 10px 55px;
+
 }
 .nav-items{
 
@@ -27,7 +34,15 @@ body{
 .nav-item{
     text-decoration: none;
     color: black!important;
-    padding: 10px;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-item:hover{
+    color: #db8211!important;
+    background-color: #e3a0491f;
+    padding: 5px;
+    font-weight: 500;
 }
 
 .hero-banner{
@@ -36,11 +51,43 @@ body{
     background-image: url('assets/img/hero-banner.png');
 }
 
+.secao-cards{
+    margin-top: 30px;
+    display: flexbox;
+}
+
 .card{
-    background: linear-gradient(to bottom, #ffffff, #fdde2c50);
+    background: linear-gradient(to bottom, #ffffff, #e3a0490f);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: auto;
     overflow: hidden;
-    text-align: center;
+    
+}
+.mr-10{
+    margin-right: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 30px 10px
+}
+.grid-container-reverse {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 30px 10px
+}
+.card-titulo{
+    padding: 0 10px;
+    margin: 20px 20px 0;
+    color: #8d5409;
+} 
+.card-texto{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 16px;
+    color: #492c07;
+}
+.foto{
+    margin: 0 auto;
 }

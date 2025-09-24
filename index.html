@@ -8,11 +8,9 @@
     </head>
     <body>
         <nav class="navigator">
-            <div class="d-inline">
-                <img src="assets/img/icone.png" width="40" height="40" alt="">
-            </div>
-            <div class="nav-items d-inline">
-                <a class="nav-item" href="/">Home</a> 
+            <div class="nav-items d-flex">
+                <div class="icone">
+                </div>
                 <a class="nav-item" href="#sobre">Sobre mim</a> 
                 <a class="nav-item" href="#servicos">Serviços</a> 
                 <a class="nav-item" href="#projetos">Projetos</a> 
@@ -21,35 +19,79 @@
             </div>
         </nav>
         <section class="hero-banner"></section>
-        <section>
-            <div id="sobre">
-                <h2>Sobre</h2>
+
+        <section class="secao-cards">
+            <div class="grid-container" id="sobre">
+                <div class="card">
+                    <h3 class="card-titulo">Sobre</h3>
+                    <p class="card-texto">Oi! Sou a Bruna, tenho 25 anos e sou designer e desenvolvedora front-end. 
+                        Transformo ideias em interfaces que fazem sentido e têm muito estilo. 
+                        Curto criar experiências visuais que funcionam bem e têm personalidade, 
+                        misturando criatividade com código. Se é pra deixar um projeto bonito, responsivo e com aquele toque especial, 
+                        pode contar comigo!</p>
+                </div>
+                <div class="foto card">
+                    <div>
+                        <img src="assets/img/sobre.gif" alt="">
+                    </div>
+                </div>
             </div>
-            <hr>
-        </section>
-        <section>
-            <div id="servicos" class="card">
-                <h2>Serviços</h2>
+            <div class="grid-container-reverse" id="servicos">
+                <div class="foto card">
+                    <div>
+                        <img src="assets/img/servicos.gif" height="150px" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-titulo">Serviços</h3>
+                    <p class="card-texto">Do layout à interação, cuido de cada detalhe para entregar experiências digitais que conectam marcas às pessoas. Seja um site, landing page ou protótipo, meu foco é transformar ideias em soluções visuais que fazem sentido e têm impacto.</p>
+                </div>                
             </div>
-            <hr>
-        </section>
-        <section>
-            <div id="projetos">
-                <h2>Projetos</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3 class="card-titulo">Projetos</h3>
+                    <p class="card-texto">Ao longo da minha trajetória, já mergulhei em projetos bem variados — desde a criação de e-mails marketing,
+                         até o desenvolvimento de formulários. Já atuei no gerenciamento de sistemas, desenhei protótipos de sites com foco na experiência
+                          do usuário, produzi conteúdos para social media e landing pages. 
+                          Cada projeto foi uma oportunidade de unir design, estratégia e tecnologia.</p>
+                </div>
+                <div class="foto card">
+                    <div>
+                        <img src="assets/img/projetos.gif" height="160px" alt="">
+                    </div>
+                </div>
             </div>
-            <hr>
-        </section>
-        <section>
-            <div id="skills">
-                <h2>Skills</h2>
+            <div class="grid-container-reverse" id="skills">
+                <div class="foto card">
+                    <div>
+                        <img src="assets/img/skills.gif" height="150px" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-titulo">Skills</h3>
+                    <p class="card-texto">
+                        Minhas habilidades misturam criatividade e técnica: mando bem no Figma, criando interfaces limpas e funcionais, e também no Photoshop, pra dar aquele toque visual que faz diferença. No código, trabalho com Vue.js e JavaScript, desenvolvendo aplicações dinâmicas e responsivas com foco na experiência do usuário. E quando o assunto é documentação ou conteúdo web, uso Markdown pra manter tudo organizado e direto ao ponto.
+                    </p>
+                </div>                
             </div>
-            <hr>
-        </section>
-        <section>
-            <div id="contato">
-                <h2>Contato</h2>
+            <div class="grid-container" id="contato">
+                <div class="card">
+                    <h3 class="card-titulo">Contato</h3>
+                    <p class="card-texto">
+                            <a href="" target="_blank"><img src="assets/img/mail_icon.svg" height="15px" class="mr-10" alt="Email">bu.daniella@gmail.com</a><br>
+                            <a href="https://www.behance.net/budaniella94aa?tracking_source=userSearchProfilePanel" target="_blank">
+                                <img src="assets/img/globe_icon.svg" height="15px" class="mr-10" alt="Behance">/budaniella94aa
+                            </a><br>
+                            <a href="https://www.artstation.com/jinro" target="_blank"><img src="assets/img/globe_icon.svg" height="15px" class="mr-10" alt="ArtStation">jinro</a><br>
+                            <a href="https://github.com/bru-daniella/" target="_blank"><img src="assets/img/github_icon.svg" height="15px" class="mr-10" alt="Github">/bru-daniella/</a>
+                    </p>
+                </div>
+                <div class="foto card">
+                    <div>
+                        <img src="assets/img/contato.gif" height="160px" alt="">
+                    </div>
+                </div>
             </div>
-            <hr>
         </section>
     </body>
 </html>
